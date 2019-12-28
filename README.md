@@ -1,5 +1,5 @@
 # SpellCheck
-This is my program (dictionary.c) created for pset5, cs50x. Presumably, it checks for "mispelled" words by iterating through an input of text file and trying to match the words extracted from the input file with a user input of dictionary (optional, if no input then program turns to use the default dictionary).
+This is my program (dictionary.c) wrote for pset5, cs50x. Presumably, it, together with other programs in the folder, checks for "mispelled" words by iterating through an input of text file and trying to match the words extracted from the input file with a user input of dictionary (optional, if no input then program turns to use the default dictionary). In fact, the main function as described is implemented through speller.c, a program wrote by cs50x staffs and given to me. The program I implemented focuses on loading the dictionary into trie data structure, checking for the dictionary's size, spell checking word(s) by iterating through the tries and checking the bool condition in the bottom trie to see if the word exists in the dictionary or not, and lastly, unloading the tries by freeing the dynamically allocated memories.
 
 Run with "./speller [dictionary] text"
 
