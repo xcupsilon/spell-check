@@ -98,6 +98,10 @@ bool load(const char *dictionary)
                             trav->children[j] = NULL;
                         }
                     }
+                    else
+                    {
+                        trav = trav->children[26]; // Move the cursor forward into the node that already exists
+                    }
                 }
                 i++; // Move onto the next character in the word
             }
@@ -134,7 +138,7 @@ bool check(const char *word)
 {
     // TODO
     int i = 0;
-    trav = root;
+    trav = root; // Reset cursor
     do
     {
         if (word[i] != '\0') // Check if reached the end of the word
