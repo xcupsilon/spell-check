@@ -4,9 +4,9 @@ This repository contains my program (dictionary.c) wrote for pset5, cs50x. Presu
 This by far the hardest programming task I've been assigned and accomplished, spending about 7 hours to finish. It combined most if not all accumulated tools and theories taught in the online lecture, making people have to understand them beyond a shallow level in order to utilize them to fulfill the pset's requirement. After toils and headaches I eventually pushed through!! Don't give up now.
 
 ## Usage
-```python
+```
 $ make speller
-$ ./speller [dictionary] text # dictionary being a line-dilimited file containing words, text being any txt files
+$ ./speller [dictionary] text //dictionary being a line-dilimited file containing words, text being any txt files
 ```
 
 ## What I have learned
